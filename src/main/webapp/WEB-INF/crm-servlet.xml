@@ -31,7 +31,7 @@
 	<bean id="myDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
           destroy-method="close">
         <property name="driverClass" value="org.postgresql.Driver" />
-        <property name="jdbcUrl" value="jdbc:postgresql://localhost:5432/crm" />
+        <property name="jdbcUrl" value="jdbc:postgresql://localhost:5432/crm?useSSL=false&amp;serverTimezone=UTC" />
         <property name="user" value="crmadmin" />
         <property name="password" value="crmadmin" />
 
@@ -48,7 +48,7 @@
 		<property name="packagesToScan" value="com.kenlhk.crm.entity" />
 		<property name="hibernateProperties">
 		   <props>
-		      <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+		      <prop key="hibernate.dialect">org.hibernate.dialect.PostgresPlusDialect</prop>
 		      <prop key="hibernate.show_sql">true</prop>
 		   </props>
 		</property>
