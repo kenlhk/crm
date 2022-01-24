@@ -10,3 +10,5 @@ Search bar, Entry validator, Styled UI
 Tech Stack: <br>
 Spring MVC, PostgreSQL, Hibernate, Maven, Bootstrap
 
+Demo:
+<img src="demo.gif"/>

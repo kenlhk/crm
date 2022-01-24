@@ -21,7 +21,7 @@
 
             <input type="button" value="Add Customer"
                    onclick="window.location.href='formForAdd'; return false;"
-                   class="add-button btn btn-outline-secondary mt-3 mb-3"/>
+                   class="add-button btn btn-outline-secondary mt-3 mb-3 fw-bolder"/>
 
             <table class="table table-hover">
                 <tr class="table-secondary">
